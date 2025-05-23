@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaxFit Trainingsplanung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MaxFit Trainingsplanung</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Über mich</a></li>
+        <li><a href="#services">Leistungen</a></li>
+        <li><a href="#pricing">Preise</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Individuelle Trainingspläne für dein Ziel</h2>
+    <p>Online oder vor Ort – maßgeschneidert, effektiv & nachhaltig.</p>
+  </section>
+
+  <section id="about">
+    <h2>Über mich</h2>
+    <p>Ich bin Max, zertifizierter Personal Trainer mit über 10 Jahren Erfahrung im Bereich Fitness und Leistungssteigerung. Ich helfe dir, deine Ziele zu erreichen – egal ob Muskelaufbau, Abnehmen oder Wettkampfvorbereitung.</p>
+  </section>
+
+  <section id="services">
+    <h2>Leistungen</h2>
+    <ul>
+      <li>💪 Individuelle Trainingsplanung (Home, Gym, Outdoor)</li>
+      <li>🥗 Ernährungsempfehlungen zur Zielunterstützung</li>
+      <li>📱 Regelmäßiges Online-Coaching & Feedback</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Preise</h2>
+    <p><strong>Einzelplan:</strong> 59 € einmalig</p>
+    <p><strong>Monatliche Betreuung:</strong> ab 99 €/Monat</p>
+    <p><strong>Gruppencoaching:</strong> auf Anfrage</p>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" required>
+
+      <label for="message">Nachricht:</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MaxFit – Trainingsplanung & Coaching</p>
+  </footer>
+</body>
+</html>
